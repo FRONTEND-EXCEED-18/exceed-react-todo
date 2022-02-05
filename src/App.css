@@ -1,38 +1,136 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: orange;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding: 8px 12px;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container h1 {
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container input {
+  margin-bottom: 10px;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid royalblue;
+  outline: none;
+  font-size: 18px;
 }
 
-.App-header {
-  background-color: #282c34;
+.login-form > * {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 18px;
+  padding: 4px;
+}
+
+button {
+  padding: 0.25rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: antiquewhite;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.app-title {
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.todo-form {
+  display: flex;
+  width: 100%;
+}
+
+.todo-form input {
+  flex: 1 1 0%;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid royalblue;
+  outline: none;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.btn-add-todo {
+  background-color: royalblue;
+  padding: 0.25rem 0.75rem;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.todo-list {
+  padding: 2rem 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.todo-item {
+  display: flex;
+  background-color: white;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+}
+
+.todo-title {
+  flex: 1;
+  display: inline-block;
+  width: 250px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 0.5rem;
+}
+
+.btn-todo-complete {
+  position: relative;
+  z-index: 10;
+  padding: 0.25rem 0.4rem;
+  background-color: rgb(0, 177, 0);
+}
+
+.btn-todo-remove {
+  padding: 0.25rem 0.4rem;
+  background-color: red;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.alert-container {
+  border-radius: 5px;
+  border: red solid 1px;
+  background-color: orange;
+  margin: 10px 0px;
+  padding: 5px;
+  text-align: left;
+}
+
+.alert-container h3 {
+  color: red;
 }
