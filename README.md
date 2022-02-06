@@ -3,23 +3,23 @@
 ### utility css class
 
 - [tailwindcss](https://tailwindcss.com/)
-- [https://react-bootstrap.github.io/getting-started/introduction](Bootstrap)
+- [Bootstrap](https://react-bootstrap.github.io/getting-started/introduction)
 
 ### ui framework
 
-- [https://ant.design/](ant-design)
-- [https://mui.com/](material-UI)
+- [Ant Design](https://ant.design/)
+- [Material-UI](https://mui.com/)
 
 ### icon
 
-- [https://react-icons.github.io/react-icons/](react-icons)
-- [https://fontawesome.com/v5.15/how-to-use/on-the-web/using-with/react](font-awesome)
+- [react-icons](https://react-icons.github.io/react-icons/)
+- [font-awesome](https://fontawesome.com/v5.15/how-to-use/on-the-web/using-with/react)
 
 ### chart
 
-- [https://recharts.org/en-US/](recharts)
-- [https://github.com/reactchartjs/react-chartjs-2](react-chartjs)
+- [recharts](https://recharts.org/en-US/)
+- [react-chartjs](https://github.com/reactchartjs/react-chartjs-2)
 
 ### animation
 
-- [https://www.framer.com/motion/](framer-motion)
+- [framer-motion](https://www.framer.com/motion/)
