@@ -2,7 +2,7 @@
 
 ### utility css class
 
-- [https://tailwindcss.com/](tailwindcss)
+- [tailwindcss](https://tailwindcss.com/)
 - [https://react-bootstrap.github.io/getting-started/introduction](Bootstrap)
 
 ### ui framework
