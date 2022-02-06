@@ -1,4 +1,3 @@
-import axios from "axios"
 import React, { useEffect, useState } from "react"
 import AddTodoForm from "../components/AddTodoForm"
 import TodoItem from "../components/TodoItem"
