@@ -25,7 +25,7 @@ const AuthProvider = ({ children }) => {
       navigate("/home")
       setUser(JSON.parse(oldUser))
     } else {
-      navigate("/login")
+      // navigate("/login")
     }
   }, [])
 
